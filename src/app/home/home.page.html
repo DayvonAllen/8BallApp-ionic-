@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title>
+      Magic 8 Ball
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="background">
+    <h1>Ask Me Anything!</h1>
+    <div id="container">
+    <div id="image-group">
+      <img id="ball" [src]="img" alt="magic 8 ball">
+    </div>
+    <div id="button-group">
+      <button id="button" type="button" (click)="choose()">Ask</button>
+    </div>
+  </div>
+  </div>
+</ion-content>

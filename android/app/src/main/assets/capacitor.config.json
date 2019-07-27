@@ -1,0 +1,7 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "magic-8-ball-app",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}
